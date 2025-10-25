@@ -1,4 +1,4 @@
-cat > .dockerignore << 'EOF'
+
 node_modules
 .git
 logs
