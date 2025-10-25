@@ -53,7 +53,7 @@ app.get('/db-test', async (req, res) => {
   }
 });
 
-// Endpoint para obtener estudiantes de la base de datos
+// Endpoint para obtener estudiantes
 app.get('/estudiantes', async (req, res) => {
   try {
     const result = await pool.query('SELECT * FROM estudiantes ORDER BY id');
