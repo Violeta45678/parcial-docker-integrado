@@ -8,9 +8,8 @@ CREATE TABLE IF NOT EXISTS estudiantes (
 );
 
 INSERT INTO estudiantes (nombre, expediente, codigo, carrera) VALUES
-    ('Juan Pérez', 'EXP-2021-001', 'EST-001', 'Ingeniería en Sistemas'),
-    ('María García', 'EXP-2021-002', 'EST-002', 'Ingeniería en Sistemas'),
-    ('Carlos López', 'EXP-2021-003', 'EST-003', 'Ingeniería en Sistemas'),
-    ('Ana Martínez', 'EXP-2021-004', 'EST-004', 'Ingeniería en Sistemas'),
-    ('Pedro Rodríguez', 'EXP-2021-005', 'EST-005', 'Ingeniería en Sistemas')
-ON CONFLICT (expediente) DO NOTHING;
+    ('Juan Pérez', '25645', 'mm22-i04-001', 'Ingeniería en Sistemas'),
+    ('María García', '58624', 'xc22-i04-001', 'Ingeniería en Sistemas'),
+    ('Carlos López', '85598', 'sd22-i04-001', 'Ingeniería en Sistemas'),
+    ('Ana Martínez', '85274', 'mp22-o04-001', 'Ingeniería en Sistemas'),
+    ('Pedro Rodríguez', '51784', 'gp22-i04-001', 'Ingeniería en Sistemas');
